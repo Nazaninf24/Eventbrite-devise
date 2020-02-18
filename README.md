@@ -9,4 +9,4 @@
 6. ```$ rails server```
 
 - Sur Navigator web :
-```http://localhost:3000````
+http://localhost:3000
