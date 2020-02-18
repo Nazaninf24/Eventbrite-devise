@@ -1,6 +1,6 @@
 # Eventbrite-devise
 
-## Installation et lancement de l'application
+## Installation et lancement de l'application :
 
 - Sur le Terminal :
 1. ```$ bundle install```
