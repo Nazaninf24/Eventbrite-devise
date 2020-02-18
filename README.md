@@ -1,24 +1,12 @@
-# README
+## Installation et lancement de l'application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Sur le Terminal :
+1. ```$ bundle install```
+2. ```$ rails db:drop```
+3. ```$ rails db:create```
+4. ```$ rails db:migrate```
+5. ```$ rails db:seed```
+6.```$ rails server
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Sur Navigator web :
+http://localhost:3000``
