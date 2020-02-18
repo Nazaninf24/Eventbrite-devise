@@ -1,3 +1,75 @@
-// Place all the styles related to the events controller here.
+// Place all the styles related to the Events controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+:root {
+    --jumbotron-padding-y: 3rem;
+  }
+  
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-image: image-url('featured-image-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    border-radius: 0;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  .box-shadow { 
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
+  }
+  
+  .box-shadow:hover {
+    box-shadow: 0 0 1.5rem rgba(192, 192, 192, 0.5);
+    border: 1px solid rgba(192, 192, 192, 0.5);
+  }
+  
+  .card-header {
+    position: relative;
+  }
+  
+  .card-price {
+    top: -1rem;
+    left: -1rem;
+    position: absolute;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .05);
+    padding: 0.4rem;
+    border-radius: 8px;
+    font-size: 0.7rem;
+  }
+  
+  .card:hover .card-header{
+    color: #78C2AD;
+  }
+  
+  .field_with_errors {
+    input, textarea{
+      border: 2px solid var(--danger);
+    }
+  }
+  
+  #form-new{
+    box-shadow: 0 0 0.6rem var(--primary);
+    border-radius: 1rem;
+  }
