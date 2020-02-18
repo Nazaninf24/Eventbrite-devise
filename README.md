@@ -1,3 +1,5 @@
+# Eventbrite-devise
+
 ## Installation et lancement de l'application
 
 - Sur le Terminal :
